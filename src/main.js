@@ -2,8 +2,8 @@ const mapResolvers = require("./mapResolvers")
 const { trackError } = require("../bin/db/fileController.js")
 
 
-const enableMonitoring = (resolvers) => {
-const injectedResolvers = mapResolvers(resolvers)
+const enableMonitoring = (resolvers,accessID) => {
+const injectedResolvers = mapResolvers(resolvers,accessID)
 return injectedResolvers
 };
 

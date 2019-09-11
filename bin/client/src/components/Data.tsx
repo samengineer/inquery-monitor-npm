@@ -57,7 +57,8 @@ function getOverviewData (data: object) {
     // Return the data.
     return rtnObj;
   }
-  
+
+
   /**
    * Gets Requests data from 'data'.
    * @params

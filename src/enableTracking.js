@@ -1,8 +1,9 @@
 const now = require('performance-now')
 const { appendFile } = require("../bin/db/fileController")
 const uniqid = require('uniqid');
+const fetch = require('node-fetch');
 
-module.exports = function enableTracking(resolversObject,queryField) {
+module.exports = function enableTracking(resolversObject,queryField,AccessID) {
   // takes resolvers object of key value pairs - 
   // key refers to resolver name, value refers to resolver function definition
   const newResolversObject = {}
@@ -26,6 +27,20 @@ module.exports = function enableTracking(resolversObject,queryField) {
     var t1 = now();
     let speed = parseFloat((t1-t0).toFixed(4));
     await appendFile(queryField,fieldName,speed,id);
+    fetch('http://goblin-monitor.us-west-1.elasticbeanstalk.com/data/putItem',{
+      method: 'post',
+      body: JSON.stringify({
+        queryType: queryField,
+        resolverName: fieldName,
+        speed: speed,
+        id: id,
+        AccessID: AccessID
+      })
+    } )
+    .then((res)=>console.log(res))
+    .catch((err)=>{
+      console.log(err)
+    })
 
     console.log('Took', (t1 - t0).toFixed(4), 'milliseconds to run the ', fieldName + ' resolver.');
     return resolverReturnValue
