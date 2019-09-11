@@ -4296,6 +4296,60 @@
         "frequency": 1,
         "time": 1567825302181,
         "id": "nukk08ypdid"
+      },
+      {
+        "speed": 0.7241,
+        "frequency": 1,
+        "time": 1568243104302,
+        "id": "1lunk0fvgbos"
+      },
+      {
+        "speed": 0.5636,
+        "frequency": 1,
+        "time": 1568243862303,
+        "id": "1lxtk0fvwkkf"
+      },
+      {
+        "speed": 0.0403,
+        "frequency": 1,
+        "time": 1568243873345,
+        "id": "1lxtk0fvwt35"
+      },
+      {
+        "speed": 0.6946,
+        "frequency": 1,
+        "time": 1568244471847,
+        "id": "1m26k0fw9mw7"
+      },
+      {
+        "speed": 0.5134,
+        "frequency": 1,
+        "time": 1568245075307,
+        "id": "1m57k0fwmkiz"
+      },
+      {
+        "speed": 0.4572,
+        "frequency": 1,
+        "time": 1568245205354,
+        "id": "1m6mk0fwpcvf"
+      },
+      {
+        "speed": 0.0229,
+        "frequency": 1,
+        "time": 1568245206054,
+        "id": "1m6mk0fwpdeu"
+      },
+      {
+        "speed": 0.0169,
+        "frequency": 1,
+        "time": 1568245206469,
+        "id": "1m6mk0fwpdqd"
+      },
+      {
+        "speed": 0.0135,
+        "frequency": 1,
+        "time": 1568245206886,
+        "id": "1m6mk0fwpe1y"
       }
     ]
   },
@@ -8530,6 +8584,60 @@
         "frequency": 1,
         "time": 1567825302368,
         "id": "nukk08ypdid"
+      },
+      {
+        "speed": 109.0683,
+        "frequency": 1,
+        "time": 1568243104423,
+        "id": "1lunk0fvgbos"
+      },
+      {
+        "speed": 114.6316,
+        "frequency": 1,
+        "time": 1568243862427,
+        "id": "1lxtk0fvwkkf"
+      },
+      {
+        "speed": 86.9916,
+        "frequency": 1,
+        "time": 1568243873439,
+        "id": "1lxtk0fvwt35"
+      },
+      {
+        "speed": 86.1236,
+        "frequency": 1,
+        "time": 1568244471943,
+        "id": "1m26k0fw9mw7"
+      },
+      {
+        "speed": 216.7583,
+        "frequency": 1,
+        "time": 1568245075532,
+        "id": "1m57k0fwmkiz"
+      },
+      {
+        "speed": 97.4242,
+        "frequency": 1,
+        "time": 1568245205463,
+        "id": "1m6mk0fwpcvf"
+      },
+      {
+        "speed": 38.7834,
+        "frequency": 1,
+        "time": 1568245206098,
+        "id": "1m6mk0fwpdeu"
+      },
+      {
+        "speed": 40.6133,
+        "frequency": 1,
+        "time": 1568245206516,
+        "id": "1m6mk0fwpdqd"
+      },
+      {
+        "speed": 40.2763,
+        "frequency": 1,
+        "time": 1568245206931,
+        "id": "1m6mk0fwpe1y"
       }
     ],
     "total_dosage": [
@@ -12462,6 +12570,12 @@
         "frequency": 1,
         "time": 1567320569213,
         "id": "1wfrk00m76xo"
+      },
+      {
+        "speed": 127.9414,
+        "frequency": 1,
+        "time": 1568243104444,
+        "id": "1lunk0fvgbos"
       }
     ],
     "county": [
@@ -16544,6 +16658,60 @@
         "frequency": 1,
         "time": 1567320569060,
         "id": "1wfrk00m76xo"
+      },
+      {
+        "speed": 0.0886,
+        "frequency": 1,
+        "time": 1568243104317,
+        "id": "1lunk0fvgbos"
+      },
+      {
+        "speed": 0.1776,
+        "frequency": 1,
+        "time": 1568243862315,
+        "id": "1lxtk0fvwkkf"
+      },
+      {
+        "speed": 0.0364,
+        "frequency": 1,
+        "time": 1568243873353,
+        "id": "1lxtk0fvwt35"
+      },
+      {
+        "speed": 0.1221,
+        "frequency": 1,
+        "time": 1568244471858,
+        "id": "1m26k0fw9mw7"
+      },
+      {
+        "speed": 0.0808,
+        "frequency": 1,
+        "time": 1568245075317,
+        "id": "1m57k0fwmkiz"
+      },
+      {
+        "speed": 0.0793,
+        "frequency": 1,
+        "time": 1568245205367,
+        "id": "1m6mk0fwpcvf"
+      },
+      {
+        "speed": 0.0153,
+        "frequency": 1,
+        "time": 1568245206059,
+        "id": "1m6mk0fwpdeu"
+      },
+      {
+        "speed": 0.0106,
+        "frequency": 1,
+        "time": 1568245206475,
+        "id": "1m6mk0fwpdqd"
+      },
+      {
+        "speed": 0.0098,
+        "frequency": 1,
+        "time": 1568245206891,
+        "id": "1m6mk0fwpe1y"
       }
     ],
     "total_manufactured": [
@@ -16564,6 +16732,12 @@
         "frequency": 1,
         "time": 1567825325571,
         "id": "nukk08ypdid"
+      },
+      {
+        "speed": 22141.2695,
+        "frequency": 1,
+        "time": 1568243126457,
+        "id": "1lunk0fvgbos"
       }
     ]
   },
@@ -20636,6 +20810,48 @@
         "frequency": 1,
         "time": 1567320569066,
         "id": "1wfrk00m76xo"
+      },
+      {
+        "speed": 0.0461,
+        "frequency": 1,
+        "time": 1568243873362,
+        "id": "1lxtk0fvwt35"
+      },
+      {
+        "speed": 0.0888,
+        "frequency": 1,
+        "time": 1568244471865,
+        "id": "1m26k0fw9mw7"
+      },
+      {
+        "speed": 0.0788,
+        "frequency": 1,
+        "time": 1568245075321,
+        "id": "1m57k0fwmkiz"
+      },
+      {
+        "speed": 0.0939,
+        "frequency": 1,
+        "time": 1568245205373,
+        "id": "1m6mk0fwpcvf"
+      },
+      {
+        "speed": 0.0324,
+        "frequency": 1,
+        "time": 1568245206064,
+        "id": "1m6mk0fwpdeu"
+      },
+      {
+        "speed": 0.0184,
+        "frequency": 1,
+        "time": 1568245206480,
+        "id": "1m6mk0fwpdqd"
+      },
+      {
+        "speed": 0.0186,
+        "frequency": 1,
+        "time": 1568245206896,
+        "id": "1m6mk0fwpe1y"
       }
     ],
     "total_dosage": [

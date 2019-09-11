@@ -557,6 +557,50 @@
         "    at fulfilled (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/apollo-server-core/dist/requestPipeline.js:4:58)",
         "    at process._tickCallback (internal/process/next_tick.js:68:7)"
       ]
+    },
+    {
+      "message": "invalid county name",
+      "path": [
+        "state",
+        "county",
+        "name"
+      ],
+      "time": 1568243126464,
+      "stacktrace": [
+        "Error: invalid county name",
+        "    at name (/Users/andrewtang/Desktop/goblinsharks-apollo/types/county-type.js:23:13)",
+        "    at name (/Users/andrewtang/Desktop/Goblin_QL-Monitoring/src/enableTracking.js:26:39)",
+        "    at field.resolve (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql-extensions/dist/index.js:133:26)",
+        "    at resolveFieldValueOrError (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:467:18)",
+        "    at resolveField (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:434:16)",
+        "    at executeFields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:275:18)",
+        "    at collectAndExecuteSubfields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:713:10)",
+        "    at completeObjectValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:703:10)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
+      ]
+    },
+    {
+      "message": "invalid county name",
+      "path": [
+        "state",
+        "county",
+        "name"
+      ],
+      "time": 1568243862434,
+      "stacktrace": [
+        "Error: invalid county name",
+        "    at name (/Users/andrewtang/Desktop/goblinsharks-apollo/types/county-type.js:23:13)",
+        "    at name (/Users/andrewtang/Desktop/Goblin_QL-Monitoring/src/enableTracking.js:26:39)",
+        "    at field.resolve (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql-extensions/dist/index.js:133:26)",
+        "    at resolveFieldValueOrError (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:467:18)",
+        "    at resolveField (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:434:16)",
+        "    at executeFields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:275:18)",
+        "    at collectAndExecuteSubfields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:713:10)",
+        "    at completeObjectValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:703:10)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
+      ]
     }
   ]
 }

@@ -46,12 +46,12 @@ async function trackError (err, time) {
       errData.errors = [];
     }
     errData.errors.push(errObj)
-    console.log(errData)
+    // console.log(errData)
     console.log('dirname inside of filecontroller', __dirname);
     await fs.writeFile(path.join(__dirname,'err.json'), JSON.stringify(errData,null,2))
     // await fs.writeFile(path.join(__dirname,'errors.json'), JSON.stringify({},null,2))
   } catch(e) {
-    console.log(e)
+    // console.log(e)
     console.log('unable to track errors')
   }
   // console.log(err);

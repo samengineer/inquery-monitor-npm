@@ -35,7 +35,8 @@ module.exports = function enableTracking(resolversObject,queryField,AccessID) {
         speed: speed,
         id: id,
         AccessID: AccessID
-      })
+      }),
+      headers: {'Content-Type' : 'application/json'}
     } )
     .then((res)=>console.log(res))
     .catch((err)=>{
