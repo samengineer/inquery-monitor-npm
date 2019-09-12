@@ -38,12 +38,12 @@ module.exports = function enableTracking(resolversObject,queryField,AccessID) {
       }),
       headers: {'Content-Type' : 'application/json'}
     } )
-    .then((res)=>console.log(res))
+    .then((res)=>res)
     .catch((err)=>{
-      console.log(err)
+      
     })
 
-    console.log('Took', (t1 - t0).toFixed(4), 'milliseconds to run the ', fieldName + ' resolver.');
+    // console.log('Took', (t1 - t0).toFixed(4), 'milliseconds to run the ', fieldName + ' resolver.');
     return resolverReturnValue
   }
     Object.defineProperty(currentResolver,'name', {value:fieldName,writable:true}) // dynamically naming all of the resolvers respective to their original name

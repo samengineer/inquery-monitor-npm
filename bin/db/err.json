@@ -601,6 +601,117 @@
         "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
         "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
       ]
+    },
+    {
+      "message": "invalid county name",
+      "path": [
+        "state",
+        "county",
+        "name"
+      ],
+      "time": 1568245469207,
+      "stacktrace": [
+        "Error: invalid county name",
+        "    at name (/Users/andrewtang/Desktop/goblinsharks-apollo/types/county-type.js:23:13)",
+        "    at name (/Users/andrewtang/Desktop/Goblin_QL-Monitoring/src/enableTracking.js:26:39)",
+        "    at field.resolve (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql-extensions/dist/index.js:133:26)",
+        "    at resolveFieldValueOrError (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:467:18)",
+        "    at resolveField (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:434:16)",
+        "    at executeFields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:275:18)",
+        "    at collectAndExecuteSubfields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:713:10)",
+        "    at completeObjectValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:703:10)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
+      ]
+    },
+    {
+      "message": "Cannot return null for non-nullable field County.total_dosage.",
+      "path": [
+        "state",
+        "county",
+        "total_dosage"
+      ],
+      "time": 1568245469208,
+      "stacktrace": [
+        "Error: Cannot return null for non-nullable field County.total_dosage.",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:560:13)",
+        "    at /Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:492:16",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "invalid county name",
+      "path": [
+        "state",
+        "county",
+        "name"
+      ],
+      "time": 1568245471014,
+      "stacktrace": [
+        "Error: invalid county name",
+        "    at name (/Users/andrewtang/Desktop/goblinsharks-apollo/types/county-type.js:23:13)",
+        "    at name (/Users/andrewtang/Desktop/Goblin_QL-Monitoring/src/enableTracking.js:26:39)",
+        "    at field.resolve (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql-extensions/dist/index.js:133:26)",
+        "    at resolveFieldValueOrError (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:467:18)",
+        "    at resolveField (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:434:16)",
+        "    at executeFields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:275:18)",
+        "    at collectAndExecuteSubfields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:713:10)",
+        "    at completeObjectValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:703:10)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
+      ]
+    },
+    {
+      "message": "Cannot return null for non-nullable field County.total_dosage.",
+      "path": [
+        "state",
+        "county",
+        "total_dosage"
+      ],
+      "time": 1568245471014,
+      "stacktrace": [
+        "Error: Cannot return null for non-nullable field County.total_dosage.",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:560:13)",
+        "    at /Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:492:16",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
+    },
+    {
+      "message": "invalid county name",
+      "path": [
+        "state",
+        "county",
+        "name"
+      ],
+      "time": 1568245482247,
+      "stacktrace": [
+        "Error: invalid county name",
+        "    at name (/Users/andrewtang/Desktop/goblinsharks-apollo/types/county-type.js:23:13)",
+        "    at name (/Users/andrewtang/Desktop/Goblin_QL-Monitoring/src/enableTracking.js:26:39)",
+        "    at field.resolve (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql-extensions/dist/index.js:133:26)",
+        "    at resolveFieldValueOrError (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:467:18)",
+        "    at resolveField (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:434:16)",
+        "    at executeFields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:275:18)",
+        "    at collectAndExecuteSubfields (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:713:10)",
+        "    at completeObjectValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:703:10)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:591:12)",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:557:21)"
+      ]
+    },
+    {
+      "message": "Cannot return null for non-nullable field County.total_dosage.",
+      "path": [
+        "state",
+        "county",
+        "total_dosage"
+      ],
+      "time": 1568245482248,
+      "stacktrace": [
+        "Error: Cannot return null for non-nullable field County.total_dosage.",
+        "    at completeValue (/Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:560:13)",
+        "    at /Users/andrewtang/Desktop/goblinsharks-apollo/node_modules/graphql/execution/execute.js:492:16",
+        "    at process._tickCallback (internal/process/next_tick.js:68:7)"
+      ]
     }
   ]
 }
