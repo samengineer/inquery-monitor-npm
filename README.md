@@ -8,7 +8,7 @@ Note: This package is for production environment GraphQL monitoring. Currently t
 
 **Install inquery-monitor**
 
-```
+```javascript
 npm install inquery-monitor
 ```
 
@@ -17,17 +17,17 @@ npm install inquery-monitor
 Go to Inquery.io & request for an AccessID / AccessKey. This will be your login credentials.
 
 **Require inquery-monitor & destructure enableMonitoring from the module in your server.js file.**
-```
+```javascript
 const { enableMonitoring } = require('inquery-monitor')
 ```
 
 **Pass your resolvers into enableMonitoring as the first param, and your API AccessID as the second.**
-```
+```javascript
 const updatedResolvers = enableMonitoring(oldResolvers, 'yourAPIAcessID')
 ```
 
 **Start your GraphQL server with the updated resolvers.**
-```
+```javascript
 const server = new ApolloServer({ typeDefs, updatedResolvers })
 server.listen( ).then( { url } ) ⇒ { console.log(`Server is listening at { url }` )}) 
 ```
