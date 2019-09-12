@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
-  "bin": {
-    "inQuery": "./bin/exec.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode development",
@@ -16,9 +13,6 @@
   "author": "Andrew Tang, Justin Fung, Billy Lee, Sorouuush",
   "license": "ISC",
   "dependencies": {
-    "chart.js": "^2.8.0",
-    "commander": "^3.0.0",
-    "express": "^4.17.1",
     "node-fetch": "^2.6.0",
     "performance-now": "^2.1.0",
     "sleep-ms": "^2.0.1",
