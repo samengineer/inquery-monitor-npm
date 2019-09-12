@@ -13,9 +13,10 @@ npm install inquery-monitor
 ```
 
 **Request for AccessID/Key**
+
 Go to Inquery.io & request for an AccessID / AccessKey. This will be your login credentials.
 
-**Require inquery-monitor & destructure enableMonitoring from the module in your server.js file. **
+**Require inquery-monitor & destructure enableMonitoring from the module in your server.js file.**
 ```
 const { enableMonitoring } = require('inquery-monitor')
 ```
