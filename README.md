@@ -8,7 +8,7 @@ Note: This package is for production environment GraphQL monitoring. Currently t
 
 **Install inquery-monitor**
 
-```javascript
+```
 npm install inquery-monitor
 ```
 
