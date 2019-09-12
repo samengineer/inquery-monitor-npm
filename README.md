@@ -1,2 +1,4 @@
-# goblinsharks
-la30-goblinsharks production project repository
+# Inquery
+Monitor your GraphQL endpoint.
+
+
