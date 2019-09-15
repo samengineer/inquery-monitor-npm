@@ -34,3 +34,7 @@ server.listen( ).then( { url } ) ⇒ { console.log(`Server is listening at { url
 
 **Login to inquery.io to view your GraphQL query analytics!**
 
+
+![Image of Dashboard](https://i.imgur.com/DEyvcAh.png)
+
+
